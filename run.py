@@ -10,7 +10,7 @@ train_datagen = keras.preprocessing.image.ImageDataGenerator(
     horizontal_flip=True)
 
 train_dataset = train_datagen.flow_from_directory(
-    directory='path/to/dataset',
+    directory='images',
     target_size=(224, 224),
     batch_size=32,
     class_mode='binary')
