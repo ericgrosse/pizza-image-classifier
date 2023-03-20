@@ -1,3 +1,17 @@
+# JS based .gitignore rules
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Python based .gitignore rules
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
